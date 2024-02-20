@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" alt="logo" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li> 
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p><span> UI/UX Designer </span></p>
+                <h1>Hi, I'm <span>Syed Aamir </span><br> Hussain From <span>Karachi,Pakistan.</span></h1>
+            </div>
+
+
+        </div>
+
+
+    </div>
+       
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png" alt="my pic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nisi minima, dicta, sapiente quasi ullam eveniet corrupti delectus accusantium eligendi saepe temporibus illo velit eaque excepturi culpa laudantium illum ad.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skill</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab ('Education')">Education</p>
+                        
+                    </div>
+                    <div class="tab-contents active-link" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>orient</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Green Line</span><br>Web Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>matric</span><br>Designing Web/App Interfaces</li>
+                            <li><span>2ndyear</span><br>Web Development</li>
+                            <li><span>Ap Development</span><br>Building Android/IOS Apps</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
